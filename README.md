@@ -1,2 +1,8 @@
 # Customer-Identification
 This project aims at identifying potential customers to target by predicting their income levels.
+
+In this project, I am going to employ several supervised methods to accurately model individuals' income using data collected from the 1994 U.S. Census. I will then choose the best candidate model from preliminary results and further optimize this model to increase the accuracy of the predictions. My goal with this implementation is to construct a model that accurately predicts whether an individual makes more than $50,000.
+
+While this task can arise in any firm, the main notion behind this project is to display my take on employing these models in order to correctly identify induviduals or groups of induviduals. Understanding an individual's income can help a firm understand how much of their time and effort they should spend, in order to decide if these will lead to successfull sales. While it can be difficult to determine an individual's general income bracket directly from public sources, we can (as we will see) infer this value from other publically available features. 
+
+The dataset for this project originates from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Census+Income). The datset was donated by Ron Kohavi and Barry Becker, after being published in the article _"Scaling Up the Accuracy of Naive-Bayes Classifiers: A Decision-Tree Hybrid"_. You can find the article by Ron Kohavi [online](https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf). The data we investigate here consists of small changes to the original dataset, such as removing the `'fnlwgt'` feature and records with missing or ill-formatted entries.
